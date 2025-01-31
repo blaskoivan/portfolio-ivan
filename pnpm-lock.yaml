@@ -18,7 +18,7 @@ importers:
         specifier: 5.0.2
         version: 5.0.2
       astro:
-        specifier: ^4.4.5
+        specifier: ^4.16.18
         version: 4.16.18(rollup@4.32.1)(typescript@5.3.3)
       astro-robots-txt:
         specifier: 1.0.0
@@ -29,6 +29,10 @@ importers:
       typescript:
         specifier: 5.3.3
         version: 5.3.3
+    devDependencies:
+      pnpm:
+        specifier: ^7.0.0
+        version: 7.33.7
 
 packages:
 
@@ -1534,6 +1538,11 @@ packages:
   pkg-dir@4.2.0:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
+
+  pnpm@7.33.7:
+    resolution: {integrity: sha512-ev4kEGQrOcaY30baTOXHIxpczjYGmNafjPj0IlfUCz5D8jEFOwe43oSf1P+/SnH/V7g1E3d3o1I4jz09p0cgDg==}
+    engines: {node: '>=14.6'}
+    hasBin: true
 
   postcss-import@15.1.0:
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
@@ -3853,6 +3862,8 @@ snapshots:
   pkg-dir@4.2.0:
     dependencies:
       find-up: 4.1.0
+
+  pnpm@7.33.7: {}
 
   postcss-import@15.1.0(postcss@8.5.1):
     dependencies:
