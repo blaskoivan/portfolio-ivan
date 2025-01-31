@@ -20,5 +20,8 @@
   },
   "devDependencies": {
     "pnpm": "^9.15.4"
+  },
+  "engines": {
+    "go": "1.19"
   }
 }
