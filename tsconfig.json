@@ -7,5 +7,9 @@
         "src/*"
       ]
     }
-  }
+  },
+  "exclude": [
+    "src/pages/components.astro"
+  ]
 }
+
